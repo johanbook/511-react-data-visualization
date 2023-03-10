@@ -1,5 +1,7 @@
 import React from "react";
 
+import { config } from "./config";
+
 export default function App(): React.ReactElement {
   return (
     <div className="App">
@@ -16,6 +18,16 @@ export default function App(): React.ReactElement {
           Learn React
         </a>
       </header>
+
+      <p>
+        CONFIG:
+        {JSON.stringify({ config })}
+      </p>
+
+      <p>
+        ENVS:
+        {JSON.stringify({ env: process.env })}
+      </p>
     </div>
   );
 }
