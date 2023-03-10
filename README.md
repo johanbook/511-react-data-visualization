@@ -4,6 +4,9 @@
 [Create React App](https://github.com/facebook/create-react-app) to visualize
 [511 data](https://511.org/open-data/traffic).
 
+Bootstraped by
+[generator-typescript-best-practices](https://github.com/johanbook/generator-typescript-best-practices)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -34,4 +37,3 @@ Your app is ready to be deployed!
 See the section about
 [deployment](https://facebook.github.io/create-react-app/docs/deployment) for
 more information.
-
