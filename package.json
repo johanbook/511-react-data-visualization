@@ -6,6 +6,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest src  --ci --coverage",
+    "test:ci": "npm run test",
     "format": "prettier --write '{scripts,src}/**/*.{js,jsx,ts,tsx}'",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}' --max-warnings 0",
     "prepare": "husky install",
@@ -35,6 +36,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "ts-jest": "^29.0.5",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -50,9 +52,7 @@
     "husky": "8.0.3",
     "lint-staged": "13.2.0",
     "prettier": "2.8.4",
-    "standard-version": "9.5.0",
-    "ts-jest": "^29.0.5",
-    "typescript": "4.9.5"
+    "standard-version": "9.5.0"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
