@@ -1,6 +1,6 @@
-export interface Operator {
+export interface IOperator {
   Id: string;
   Name: string;
 }
 
-export type Operators = Operator[];
+export type IOperators = IOperator[];
