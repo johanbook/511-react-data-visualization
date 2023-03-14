@@ -22,6 +22,12 @@ Start the development server by running
 npm run start
 ```
 
+### CORS
+
+For local development in Firefox, use the following plugin
+[access-control-allow-origin](https://addons.mozilla.org/en-US/firefox/addon/access-control-allow-origin/)
+to support CORS.
+
 ## Release procedure
 
 This project uses [semver](https://semver.org/), handled by the NPM package
